@@ -1,0 +1,22 @@
+PODS:
+  - SwiftCoroutine (2.1.9)
+
+DEPENDENCIES:
+  - SwiftCoroutine (from `https://github.com/belozierov/SwiftCoroutine.git`, tag `2.1.10`)
+
+EXTERNAL SOURCES:
+  SwiftCoroutine:
+    :git: https://github.com/belozierov/SwiftCoroutine.git
+    :tag: 2.1.10
+
+CHECKOUT OPTIONS:
+  SwiftCoroutine:
+    :git: https://github.com/belozierov/SwiftCoroutine.git
+    :tag: 2.1.10
+
+SPEC CHECKSUMS:
+  SwiftCoroutine: 21327b3c34494e2892db10ed7c44ed5c09c4c993
+
+PODFILE CHECKSUM: b61d23d7f92aaf12a6ca210800ff3603bde85a79
+
+COCOAPODS: 1.10.1

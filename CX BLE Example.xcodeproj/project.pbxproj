@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB68210DE48E209205FEA61A /* libPods-CX BLE Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB592F51DF91C773820322DC /* libPods-CX BLE Example.a */; };
+		D51F59FB25DB64A2005847D1 /* ReaderWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51F59FA25DB64A2005847D1 /* ReaderWriter.swift */; };
+		D557815C25C9DDCA0039151F /* CX_BLE_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557815B25C9DDCA0039151F /* CX_BLE_ExampleApp.swift */; };
+		D557815E25C9DDCA0039151F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557815D25C9DDCA0039151F /* ContentView.swift */; };
+		D557816025C9DDCB0039151F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D557815F25C9DDCB0039151F /* Assets.xcassets */; };
+		D557816325C9DDCB0039151F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D557816225C9DDCB0039151F /* Preview Assets.xcassets */; };
+		D557816D25C9DF6D0039151F /* StnBle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557816C25C9DF6D0039151F /* StnBle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26D25B61A26E0D3842BA9152 /* Pods-CX BLE Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CX BLE Example.release.xcconfig"; path = "Target Support Files/Pods-CX BLE Example/Pods-CX BLE Example.release.xcconfig"; sourceTree = "<group>"; };
+		32DB16CF2DA35EC8F86225D5 /* Pods-CX BLE Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CX BLE Example.debug.xcconfig"; path = "Target Support Files/Pods-CX BLE Example/Pods-CX BLE Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D51F59FA25DB64A2005847D1 /* ReaderWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderWriter.swift; sourceTree = "<group>"; };
+		D557815825C9DDCA0039151F /* CX BLE Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CX BLE Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D557815B25C9DDCA0039151F /* CX_BLE_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CX_BLE_ExampleApp.swift; sourceTree = "<group>"; };
+		D557815D25C9DDCA0039151F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D557815F25C9DDCB0039151F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D557816225C9DDCB0039151F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D557816425C9DDCB0039151F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D557816C25C9DF6D0039151F /* StnBle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StnBle.swift; sourceTree = "<group>"; };
+		DB592F51DF91C773820322DC /* libPods-CX BLE Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CX BLE Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D557815525C9DDCA0039151F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB68210DE48E209205FEA61A /* libPods-CX BLE Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC600E5889DF1AE102CC9B96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32DB16CF2DA35EC8F86225D5 /* Pods-CX BLE Example.debug.xcconfig */,
+				26D25B61A26E0D3842BA9152 /* Pods-CX BLE Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D557814F25C9DDCA0039151F = {
+			isa = PBXGroup;
+			children = (
+				D557815A25C9DDCA0039151F /* CX BLE Example */,
+				D557815925C9DDCA0039151F /* Products */,
+				CC600E5889DF1AE102CC9B96 /* Pods */,
+				D8E33D736C7928BDF712F62E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D557815925C9DDCA0039151F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D557815825C9DDCA0039151F /* CX BLE Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D557815A25C9DDCA0039151F /* CX BLE Example */ = {
+			isa = PBXGroup;
+			children = (
+				D51F59FA25DB64A2005847D1 /* ReaderWriter.swift */,
+				D557815B25C9DDCA0039151F /* CX_BLE_ExampleApp.swift */,
+				D557815D25C9DDCA0039151F /* ContentView.swift */,
+				D557816C25C9DF6D0039151F /* StnBle.swift */,
+				D557815F25C9DDCB0039151F /* Assets.xcassets */,
+				D557816425C9DDCB0039151F /* Info.plist */,
+				D557816125C9DDCB0039151F /* Preview Content */,
+			);
+			path = "CX BLE Example";
+			sourceTree = "<group>";
+		};
+		D557816125C9DDCB0039151F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D557816225C9DDCB0039151F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8E33D736C7928BDF712F62E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB592F51DF91C773820322DC /* libPods-CX BLE Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D557815725C9DDCA0039151F /* CX BLE Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D557816725C9DDCB0039151F /* Build configuration list for PBXNativeTarget "CX BLE Example" */;
+			buildPhases = (
+				B183BCBFCDC834CF881F7C6C /* [CP] Check Pods Manifest.lock */,
+				D557815425C9DDCA0039151F /* Sources */,
+				D557815525C9DDCA0039151F /* Frameworks */,
+				D557815625C9DDCA0039151F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CX BLE Example";
+			productName = "CX BLE Example";
+			productReference = D557815825C9DDCA0039151F /* CX BLE Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D557815025C9DDCA0039151F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D557815725C9DDCA0039151F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = D557815325C9DDCA0039151F /* Build configuration list for PBXProject "CX BLE Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D557814F25C9DDCA0039151F;
+			productRefGroup = D557815925C9DDCA0039151F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D557815725C9DDCA0039151F /* CX BLE Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D557815625C9DDCA0039151F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D557816325C9DDCB0039151F /* Preview Assets.xcassets in Resources */,
+				D557816025C9DDCB0039151F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B183BCBFCDC834CF881F7C6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CX BLE Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D557815425C9DDCA0039151F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D557816D25C9DF6D0039151F /* StnBle.swift in Sources */,
+				D51F59FB25DB64A2005847D1 /* ReaderWriter.swift in Sources */,
+				D557815E25C9DDCA0039151F /* ContentView.swift in Sources */,
+				D557815C25C9DDCA0039151F /* CX_BLE_ExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D557816525C9DDCB0039151F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D557816625C9DDCB0039151F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D557816825C9DDCB0039151F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DB16CF2DA35EC8F86225D5 /* Pods-CX BLE Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CX BLE Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Q5WAQ9QHC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CX BLE Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obdsol.CX-BLE-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D557816925C9DDCB0039151F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D25B61A26E0D3842BA9152 /* Pods-CX BLE Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CX BLE Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Q5WAQ9QHC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CX BLE Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obdsol.CX-BLE-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D557815325C9DDCA0039151F /* Build configuration list for PBXProject "CX BLE Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D557816525C9DDCB0039151F /* Debug */,
+				D557816625C9DDCB0039151F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D557816725C9DDCB0039151F /* Build configuration list for PBXNativeTarget "CX BLE Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D557816825C9DDCB0039151F /* Debug */,
+				D557816925C9DDCB0039151F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D557815025C9DDCA0039151F /* Project object */;
+}
